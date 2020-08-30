@@ -15,15 +15,9 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+## Development environment
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Windows 10
+- Visual Studio Code 1.48.2
+- Node v12.18.3
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
