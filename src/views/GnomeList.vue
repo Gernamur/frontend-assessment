@@ -30,9 +30,7 @@ export default {
       );
     },
   },
-  computed: {
-    ...mapGetters(["getGnomes"]),
-  }
+  computed: mapGetters(["getGnomes"]),  
 };
 </script>
 

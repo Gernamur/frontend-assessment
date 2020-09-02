@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 import GnomeList from '../views/GnomeList.vue'
 import GomeDetails from '../views/GnomeDetails.vue'
 
@@ -10,7 +9,6 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home,
     redirect: { name: 'GnomeList' }
   },
   {

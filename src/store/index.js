@@ -15,7 +15,7 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    getGnomesFromSource({ commit }, gnomes) {
+    getGnomesFromSource({ commit }) {
       axios
         .get(
           "https://raw.githubusercontent.com/rrafols/mobile_test/master/data.json"
